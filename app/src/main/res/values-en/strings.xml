@@ -3,4 +3,5 @@
     <string name="app_name">BotonesDinamicos2223</string>
     <string name="crear">Create</string>
     <string name="nbotones">Nº Button</string>
+    <string name="borrar">Delete</string>
 </resources>
