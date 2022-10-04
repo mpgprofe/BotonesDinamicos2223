@@ -34,7 +34,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonBorrar">
+        app:layout_constraintTop_toBottomOf="@+id/buttonBorrarPares">
 
         <androidx.gridlayout.widget.GridLayout
             android:id="@+id/layoutTabla"
@@ -54,5 +54,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCrear" />
+
+    <Button
+        android:id="@+id/buttonBorrarPares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Borrar Pares"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBorrar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
